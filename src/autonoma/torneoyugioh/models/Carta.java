@@ -7,7 +7,7 @@ package autonoma.torneoyugioh.models;
 /**
  * La clase Carta representa una carta en el juego de YU-GI-OH.
  * @author Angie Campuzano Betancur y Alejandra Zapata Castañeda
- * @version 
+ * @version 1.0.0
  * @since 2024-03-07
  */
 public class Carta {
