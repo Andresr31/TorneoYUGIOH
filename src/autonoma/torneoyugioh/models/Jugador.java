@@ -7,5 +7,7 @@ package autonoma.torneoyugioh.models;
  */
 public class Jugador 
 {
-    
+    private String nombre;
+    private int numeroVictorias;
+    private int puntosExtra;
 }
