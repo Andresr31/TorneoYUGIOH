@@ -5,7 +5,7 @@ package autonoma.torneoyugioh.models;
  * @version 0.2.0
  * @since 2024-03-8
  */
-public class Jugador 
+public abstract class Jugador 
 {
     private String nombre;
     private int numeroVictorias;
@@ -45,5 +45,7 @@ public class Jugador
     public void setPuntosExtra(int puntosExtra) 
     {
         this.puntosExtra = puntosExtra;
-    }   
+    }
+    
+    public abstract void acumularPuntosExtra();
 }
